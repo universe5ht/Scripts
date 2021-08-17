@@ -1,0 +1,1 @@
+Get-WindowsCapability -Name RSAT* -Online | Add-WindowsCapability –Online -LimitAccess -Source \\xxx\Win10_1809_FOD
